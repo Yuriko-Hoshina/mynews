@@ -31,7 +31,7 @@
                     <div class="form-group row">
                         <label class="col-md-2">趣味</label>
                         <div class="col-md-10">
-                            <textarea class="form-control" name="hoby" rows="10">{{ old('hoby') }}</textarea>
+                            <textarea class="form-control" name="hobby" rows="10">{{ old('hobby') }}</textarea>
                         </div>
                     </div>
                     <div class="form-group row">
