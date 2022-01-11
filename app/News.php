@@ -8,6 +8,7 @@ class News extends Model
 {
     //
     protected $guarded = array('id');
+    //protected $fillable = array('title', 'body', 'image_path', 'created_at', 'updated_at');
     
     public static $rules = array(
         'title' => 'required',
