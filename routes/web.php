@@ -40,3 +40,5 @@ Route::group(['prefix' => 'admin'], function(){
 
 
 Auth::routes();
+
+Route::get('/', 'NewsController@index');
