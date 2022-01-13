@@ -27,6 +27,12 @@
                         </div>
                     </div>
                     <div class="form-group row">
+                        <label class="col-md-2" for="birthday">誕生日</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" name="birthday" value="{{ $profile_form->birthday }}">
+                        </div>
+                    </div>
+                    <div class="form-group row">
                         <label class="col-md-2" for="hobby">趣味</label>
                         <div class="col-md-10">
                             <textarea class="form-control" name="hobby" rows="10">{{ $profile_form->hobby }}</textarea>
