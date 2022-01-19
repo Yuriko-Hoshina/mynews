@@ -31,7 +31,7 @@
                     <div class="form-group row">
                         <label class="col-md-2">誕生日</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="birthday" value="{{ old('birthday') }}">
+                            <input type="text" class="form-control" name="birth" value="{{ old('birth') }}">
                         </div>
                     </div>
                     <div class="form-group row">
