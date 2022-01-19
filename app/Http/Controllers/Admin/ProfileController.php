@@ -17,7 +17,7 @@ class ProfileController extends Controller
  
  public function create(Request $request)
  {
-   // Varidationを行う
+    // Varidationを行う
     $this->validate($request, Profile::$rules); 
     $profile = new Profile; 
     $form = $request->all();
@@ -25,6 +25,7 @@ class ProfileController extends Controller
     unset($form['_token']);
     // フォームから送信されてきたimageを削除する
     unset($form['image']);
+    
     // データベースに保存する
     $profile->fill($form);
     $profile->save();

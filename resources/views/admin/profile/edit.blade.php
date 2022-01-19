@@ -27,9 +27,9 @@
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-md-2" for="birthday">誕生日</label>
+                        <label class="col-md-2" for="birth">誕生日</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="birthday" value="{{ $profile_form->birthday }}">
+                            <input type="text" class="form-control" name="birth" value="{{ $profile_form->birth }}">
                         </div>
                     </div>
                     <div class="form-group row">
